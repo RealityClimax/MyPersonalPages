@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'nk63regular';
+    src: url('fonts/18889-webfont.woff2') format('woff2'),
+         url('fonts/18889-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nk147regular';
+    src: url('fonts/18891-webfont.woff2') format('woff2'),
+         url('fonts/18891-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background-color: #8f5e2b;
+	background-image: url(img/cartographer.png);
+	background-repeat: repeat;
+	margin: 0px;
+	max-height: 1050px;
+}
+header {
+	background-color: #BBAA98;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-top: 20px solid black;
+	border-bottom: 20px solid black;
+	border-style: double;
+	margin-left: 500px; 
+
+}
+/*оформление блоков с текстом*/
+.textframe {
+	background-color: #BBAA98;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: 20px solid black;
+	border-left: 20px solid black;
+	border-left-style: double;
+	border-right-style: double; 
+	max-width: 600px;
+}
+/*оформление кнопок с картинками*/
+.button {
+	background-color: #BBAA98;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: 20px solid black;
+	border-left: 20px solid black;
+	border-left-style: double;
+	border-right-style: double; 
+	max-width: 600px;
+}
+footer {
+	background-color: #BBAA98;
+	padding-top: 20px;
+	padding-bottom: 29px;
+	border-top: 20px solid black;
+	border-top-style: double;
+	margin: 0px;	
+
+}
+aside {
+	background-color: #BBAA98;
+	background-image: url(img/sidebarFace.jpg);
+	background-size: 500px 1050px;
+	min-width: 500px;
+	max-width: 500px;
+	min-height: 1050px;
+	max-height: 1050px;
+	border-right: 6px solid black;
+	float: left;
+}
+main{
+	margin-left: 500px;
+}
+.text {
+	font-family: 'nk63regular', serif;
+}
+.header {
+	font-family: 'nk147regular', serif;
+}
+    
