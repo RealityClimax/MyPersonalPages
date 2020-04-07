@@ -3,7 +3,6 @@ body {
 	background-image: url(img/dark-geometric.png);
 	background-repeat: repeat;
 	margin: 0px;
-	max-height: 1050px;
 }
 header {
 	background-color: #8c6968;
@@ -16,7 +15,6 @@ header {
 	border-top: 20px solid black;
 	border-bottom: 20px solid black;
 	border-style: double;
-	margin-left: 25%; 
 
 }
 footer {
@@ -27,7 +25,6 @@ footer {
 	padding-bottom: 25px;
 	border-top: 20px solid black;
 	border-top-style: double;
-	margin-left: 25%;	
 
 }
 aside {
@@ -42,15 +39,17 @@ aside {
 	float: left;
 	position: fixed;
 }
-main{
-	margin-left: 25%;
-}
 a {
 	color: black;
 }
 a:hover{
 	opacity: 0.5;
 }
+
+h2 {
+    	font-size: 25px;
+    }
+
 /*оформление блоков с текстом*/
 .textframe {
 	background-color: #8c6968;
@@ -73,7 +72,32 @@ a:hover{
 .header {
 	font-family: 'Playfair Display SC', serif;
 	font-size: 30px;
+	text-align: center;
 }
-    h2 {
-    	font-size: 25px;
-    }
+.picturebutton {
+	background-color: #8c6968;
+	background-image: url(img/billie-holiday.png);
+	background-repeat: repeat;
+	padding-bottom: 5px;
+	border-right: 8px solid black;
+	border-left: 8px solid black;
+	max-width: 500;
+	min-width: 100;
+	text-align: center;
+}
+.picturebutton img {
+	max-width: 500px;
+	min-width: 100px;
+	border-top: 8px solid black;
+	border-left: 8px solid black;
+	border-right: 8px solid black;
+	border-bottom: 8px solid black;
+	margin: 8px;
+}
+.sidebarmargin{
+	margin-left: 25%;
+}
+.tablepadding {
+	padding: 40px;
+}
+
